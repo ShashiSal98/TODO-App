@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.task-form input {
+  margin: 5px;
+  padding: 10px;
+  width: 200px;
+}
+
+.task-form button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.task-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px auto;
+  width: 300px;
+  text-align: left;
+}
+
+.task-item.completed {
+  text-decoration: line-through; /* Strikethrough */
+  color: #747171; /* Change text color */
+  background-color: #d8e9ca; /* Optional: Change background color */
+}
+
+.task-item button {
+  float: right;
+  cursor: pointer;
+}
